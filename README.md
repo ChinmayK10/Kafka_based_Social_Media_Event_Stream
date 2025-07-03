@@ -70,10 +70,16 @@ Calculate the popularity of a user based on the number of likes, shares, and com
     ...
 }
 ```
-##Future Enhancements
+## Future Enhancements
 * Persist output to MongoDB or PostgreSQL
 * Add timestamps to each event
 * Visualize with Flask/Streamlit dashboards
 * Scale using topic partitions and Docker setup
 ```sh
+
+```
+## License
+This project is licensed under the MIT License.
+```sh
+
 
