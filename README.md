@@ -13,6 +13,12 @@ This project demonstrates a real-time social media event streaming system using 
 * consumer_likes.py: Tracks number of likes per user per post
 * consumer_shares.py: Aggregates share actions to track shared recipients
 
+## Future Enhancements
+* Persist output to MongoDB or PostgreSQL
+* Add timestamps to each event
+* Visualize with Flask/Streamlit dashboards
+* Scale using topic partitions and Docker setup
+
 ## How to Run
 1. Start Kafka server.
     Make sure Kafka and Zookeeper are running on localhost:9092.
@@ -69,17 +75,11 @@ Calculate the popularity of a user based on the number of likes, shares, and com
     "@username_2": popularity,
     ...
 }
-```
-## Future Enhancements
-* Persist output to MongoDB or PostgreSQL
-* Add timestamps to each event
-* Visualize with Flask/Streamlit dashboards
-* Scale using topic partitions and Docker setup
-```sh
 
-```
+
+
 ## License
 This project is licensed under the MIT License.
-```sh
+
 
 
