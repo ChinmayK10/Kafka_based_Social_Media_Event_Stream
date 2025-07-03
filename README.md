@@ -1,12 +1,8 @@
 # Kafka-Social-Media-Analytics
-[![MIT License][license-shield]][license-url]
 ## Overview
 This project demonstrates a real-time social media event streaming system using Apache Kafka and Python. A Kafka producer streams user actions (comments, likes, shares), while three separate consumers handle data for analytics and reporting.
 
 ## Requirements
-[![Apache Kafka][Apache Kafka.js]][kafka-url]
-[![Python][Python.js]][Python-url]
-[![Ubuntu][Ubuntu.js]][Ubuntu-url]
 * Python 3.x
 * Kafka-Python
 * Apache Kafka running locally (localhost:9092)
